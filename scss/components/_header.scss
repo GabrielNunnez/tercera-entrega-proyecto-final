@@ -1,0 +1,29 @@
+@import "../base/extend";
+@import "../base/mapas";
+
+header {
+    background-color: #E1701A;
+
+    nav {
+
+        .lista-menu {
+            color: map-get($tipografia, color);
+            font-family: map-get($tipografia, font-family);
+            font-style: map-get($tipografia, font-style);
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar-nav li {
+            transition: 2s;
+        }
+
+        .navbar-nav li a:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        div div ul li .logo-iniciar {
+            @extend %img;
+        }
+    }
+}

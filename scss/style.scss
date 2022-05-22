@@ -1,0 +1,10 @@
+/* nesting o anidamiento*/
+@import "../scss/base/estilosGenerales";
+@import "../scss/components/header";
+@import "../scss/components/main";
+@import "../scss/components/footer.scss";
+@import "../scss/base/varibles";
+@import "../scss/base/mediaquery";
+@import "../scss/base/mixin";
+@import "../scss/base/extend";
+@import "../scss/base/mapas";

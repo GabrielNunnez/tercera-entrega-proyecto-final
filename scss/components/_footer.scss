@@ -1,0 +1,21 @@
+@import "../base/extend";  
+@import "../base/mixin";
+.pie-pagina {
+    background-color: #E1701A;
+    @include flex (flex, space-between, center);
+
+    .logo-pie {
+        width: auto;
+        height: 100px;
+    }
+
+    .lista-pie ul a img {
+        transition: 2s;
+        margin: 20px;
+        @extend %img;
+    }
+
+    .lista-pie ul a img:hover {
+        transform: scale(1.5);
+    }
+}

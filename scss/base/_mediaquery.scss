@@ -1,0 +1,33 @@
+@media screen and (max-width:768px) {
+    .lista-menu {
+        font-size: 16px;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .lista-menu {
+        font-size: 14px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .lista-pie ul a img {
+        margin: 10px;
+        width: 35spx;
+        height: 35px;
+    }
+}
