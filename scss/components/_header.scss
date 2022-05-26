@@ -23,7 +23,8 @@ header {
         }
 
         div div ul li .logo-iniciar {
-            @extend %img;
+            width: 50px;
+            height: 50px;
         }
     }
 }

@@ -4,11 +4,15 @@
     }
 
     .texto {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .titulo {
         font-size: 22px;
+    }
+
+    .disclaimer {
+        display: none;
     }
 }
 
@@ -18,7 +22,7 @@
     }
 
     .texto {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .titulo {
@@ -29,5 +33,9 @@
         margin: 10px;
         width: 35spx;
         height: 35px;
+    }
+
+    .disclaimer {
+        display: none;
     }
 }
