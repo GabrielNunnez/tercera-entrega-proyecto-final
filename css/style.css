@@ -113,6 +113,11 @@ main .video {
   display: none;
 }
 
+.logo-comunidad {
+  width: 50px;
+  height: 50px;
+}
+
 .pie-pagina .lista-pie ul a img {
   width: 50px;
   height: 50px;
